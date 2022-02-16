@@ -1,0 +1,8 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\startup_cmsdk_cm0.o"
+".\objects\code_def.o"
+--strict --scatter ".\Objects\prj.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\prj.map" -o .\Objects\prj.axf

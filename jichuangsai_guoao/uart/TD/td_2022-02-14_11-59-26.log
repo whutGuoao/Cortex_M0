@@ -1,0 +1,46 @@
+============================================================
+   Tang Dynasty, V5.0.30786
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = C:/Anlogic/TD5.0.30786/bin/td.exe
+   Run by =     if you
+   Run Date =   Mon Feb 14 11:59:26 2022
+
+   Run on =     DESKTOP-KVJMB1K
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+HDL-1007 : analyze verilog file rtl/CortexM0_SoC.v
+HDL-1007 : analyze verilog file rtl/Block_RAM.v
+Oops! 'Signal Segmentation Violation' raised. The backtrace:
+[bt] (4)_chkstk
+[bt] (5)RtlRaiseException
+[bt] (6)KiUserExceptionDispatcher
+[bt] (9)QObject::event
+[bt] (10)QWidget::event
+[bt] (11)QFrame::event
+[bt] (12)QAbstractScrollArea::event
+[bt] (13)QApplicationPrivate::notify_helper
+[bt] (14)QApplication::notify
+[bt] (15)QCoreApplication::notifyInternal2
+[bt] (16)QCoreApplicationPrivate::sendPostedEvents
+[bt] (17)qt_plugin_query_metadata
+[bt] (18)QEventDispatcherWin32::processEvents
+[bt] (19)CallWindowProcW
+[bt] (20)DispatchMessageW
+[bt] (21)QEventDispatcherWin32::processEvents
+[bt] (22)qt_plugin_query_metadata
+[bt] (23)QEventLoop::exec
+[bt] (24)QCoreApplication::exec
+[bt] (28)BaseThreadInitThunk
+[bt] (29)RtlUserThreadStart
+

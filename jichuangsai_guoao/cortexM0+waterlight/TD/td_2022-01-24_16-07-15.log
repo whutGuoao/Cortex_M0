@@ -1,0 +1,1460 @@
+============================================================
+   Tang Dynasty, V5.0.30786
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = C:/Anlogic/TD5.0.30786/bin/td.exe
+   Run by =     Frank
+   Run Date =   Mon Jan 24 16:07:15 2022
+
+   Run on =     DESKTOP-C83U48A
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+HDL-1007 : analyze verilog file rtl/Block_RAM.v
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 :      infer_shifter      |    off     |       off        
+RUN-1001 :         map_dram        |    auto    |       auto       
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :       gate_sharing      |     on     |        on        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :      max_oh2bin_len     |     10     |        10        
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :        merge_mux        |    off     |       off        
+RUN-1001 :      min_ce_fanout      |     16     |        16        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       
+RUN-1001 :     opt_adder_fanout    |     on     |        on        
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :       opt_lessthan      |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+HDL-1007 : analyze verilog file rtl/AHBlite_Block_RAM.v
+HDL-1007 : analyze verilog file rtl/AHBlite_Decoder.v
+HDL-1007 : analyze verilog file rtl/AHBlite_Interconnect.v
+HDL-1007 : analyze verilog file rtl/AHBlite_SlaveMUX.v
+HDL-1007 : analyze verilog file rtl/Block_RAM.v
+HDL-1007 : analyze verilog file rtl/CortexM0_SoC.v
+HDL-1007 : analyze verilog file rtl/cortexm0ds_logic.v
+RUN-1002 : start command "elaborate -top CortexM0_SoC"
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 :      infer_shifter      |    off     |       off        
+RUN-1001 :         map_dram        |    auto    |       auto       
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :       gate_sharing      |     on     |        on        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :      max_oh2bin_len     |     10     |        10        
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :        merge_mux        |    off     |       off        
+RUN-1001 :      min_ce_fanout      |     16     |        16        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       
+RUN-1001 :     opt_adder_fanout    |     on     |        on        
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :       opt_lessthan      |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  
+RUN-1001 : -------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        
+RUN-1001 :        syn_ip_flow       |    off     |       off        
+RUN-1001 :          thread          |    auto    |       auto       
+RUN-1001 : -------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        infer_add        |     on     |        on        
+RUN-1001 :        infer_fsm        |    off     |       off        
+RUN-1001 :        infer_mult       |     on     |        on        
+RUN-1001 :        infer_ram        |     on     |        on        
+RUN-1001 :        infer_reg        |     on     |        on        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        
+RUN-1001 :        infer_rom        |     on     |        on        
+RUN-1001 :      infer_shifter      |    off     |       off        
+RUN-1001 :         map_dram        |    auto    |       auto       
+RUN-1001 : ------------------------------------------------------
+HDL-5007 WARNING: port 'CODENSEQ' remains unconnected for this instance in rtl/CortexM0_SoC.v(74)
+HDL-1007 : elaborate module CortexM0_SoC in rtl/CortexM0_SoC.v(2)
+HDL-1007 : elaborate module cortexm0ds_logic in rtl/cortexm0ds_logic.v(27)
+HDL-1007 : elaborate module AHBlite_Interconnect in rtl/AHBlite_Interconnect.v(1)
+HDL-1007 : elaborate module AHBlite_Decoder in rtl/AHBlite_Decoder.v(1)
+HDL-1007 : elaborate module AHBlite_SlaveMUX in rtl/AHBlite_SlaveMUX.v(1)
+HDL-1007 : elaborate module AHBlite_Block_RAM in rtl/AHBlite_Block_RAM.v(1)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 4 for port 'HPROT' in rtl/CortexM0_SoC.v(290)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 2 for port 'HRESP' in rtl/CortexM0_SoC.v(298)
+HDL-1007 : elaborate module Block_RAM in rtl/Block_RAM.v(1)
+HDL-5007 WARNING: net 'HREADYOUT_P1' does not have a driver in rtl/CortexM0_SoC.v(165)
+HDL-5007 WARNING: net 'HRDATA_P1[31]' does not have a driver in rtl/CortexM0_SoC.v(166)
+HDL-5007 WARNING: net 'HRESP_P1' does not have a driver in rtl/CortexM0_SoC.v(167)
+HDL-5007 WARNING: net 'HREADYOUT_P2' does not have a driver in rtl/CortexM0_SoC.v(179)
+HDL-5007 WARNING: net 'HRDATA_P2[31]' does not have a driver in rtl/CortexM0_SoC.v(180)
+HDL-5007 WARNING: net 'HRESP_P2' does not have a driver in rtl/CortexM0_SoC.v(181)
+HDL-5007 WARNING: net 'HREADYOUT_P3' does not have a driver in rtl/CortexM0_SoC.v(193)
+HDL-5007 WARNING: net 'HRDATA_P3[31]' does not have a driver in rtl/CortexM0_SoC.v(194)
+HDL-5007 WARNING: net 'HRESP_P3' does not have a driver in rtl/CortexM0_SoC.v(195)
+HDL-5007 WARNING: net 'bps_en_rx' does not have a driver in rtl/CortexM0_SoC.v(361)
+HDL-5007 WARNING: net 'bps_en_tx' does not have a driver in rtl/CortexM0_SoC.v(361)
+HDL-5007 WARNING: net 'HPORT_P0' does not have a driver in rtl/CortexM0_SoC.v(290)
+HDL-1200 : Current top model is CortexM0_SoC
+HDL-1100 : Inferred 1 RAMs.
+RUN-1003 : finish command "elaborate -top CortexM0_SoC" in  6.102512s wall, 5.843750s user + 0.359375s system = 6.203125s CPU (101.6%)
+
+RUN-1004 : used memory is 326 MB, reserved memory is 290 MB, peak memory is 1031 MB
+RUN-1002 : start command "read_adc M0.adc"
+RUN-1002 : start command "set_pin_assignment  RSTn   LOCATION = A9; "
+RUN-1002 : start command "set_pin_assignment  SWCLK   LOCATION = R2; "
+RUN-1002 : start command "set_pin_assignment  SWDIO   LOCATION = P2; "
+RUN-1002 : start command "set_pin_assignment  clk   LOCATION = R7; "
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.30786/license/Anlogic.lic
+RUN-1001 : Print Rtl Property
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      
+RUN-1001 :        elf_sload        |    off     |       off        
+RUN-1001 :       fix_undriven      |     0      |        0         
+RUN-1001 :         flatten         |    off     |       off        
+RUN-1001 :       gate_sharing      |     on     |        on        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        
+RUN-1001 :      impl_set_reset     |     on     |        on        
+RUN-1001 :        infer_gsr        |    off     |       off        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       
+RUN-1001 :        max_fanout       |    9999    |       9999       
+RUN-1001 :      max_oh2bin_len     |     10     |        10        
+RUN-1001 :       merge_equal       |     on     |        on        
+RUN-1001 :       merge_equiv       |     on     |        on        
+RUN-1001 :        merge_mux        |    off     |       off        
+RUN-1001 :      min_ce_fanout      |     16     |        16        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       
+RUN-1001 :     opt_adder_fanout    |     on     |        on        
+RUN-1001 :        opt_arith        |     on     |        on        
+RUN-1001 :       opt_big_gate      |    off     |       off        
+RUN-1001 :        opt_const        |     on     |        on        
+RUN-1001 :      opt_const_mult     |     on     |        on        
+RUN-1001 :       opt_lessthan      |     on     |        on        
+RUN-1001 :         opt_mux         |    off     |       off        
+RUN-1001 :         opt_ram         |    high    |       high       
+RUN-1001 :      rtl_sim_model      |    off     |       off        
+RUN-1001 :         seq_syn         |     on     |        on        
+RUN-1001 : ------------------------------------------------------
+SYN-1012 : SanityCheck: Model "CortexM0_SoC"
+SYN-1012 : SanityCheck: Model "AHBlite_Interconnect"
+SYN-1012 : SanityCheck: Model "AHBlite_Decoder"
+SYN-1012 : SanityCheck: Model "AHBlite_SlaveMUX"
+SYN-1012 : SanityCheck: Model "AHBlite_Block_RAM"
+SYN-1012 : SanityCheck: Model "Block_RAM"
+SYN-1012 : SanityCheck: Model "cortexm0ds_logic"
+SYN-1026 : Infer Logic BRAM(ram_mem_al_u00)
+	 port mode: single dual port
+	 port a size: 16384 x 32	 write mode: NORMAL
+	 port b size: 16384 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(ram_mem_al_u10)
+	 port mode: single dual port
+	 port a size: 16384 x 32	 write mode: NORMAL
+	 port b size: 16384 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(ram_mem_al_u20)
+	 port mode: single dual port
+	 port a size: 16384 x 32	 write mode: NORMAL
+	 port b size: 16384 x 32	 write mode: READBEFOREWRITE
+SYN-1026 : Infer Logic BRAM(ram_mem_al_u30)
+	 port mode: single dual port
+	 port a size: 16384 x 32	 write mode: NORMAL
+	 port b size: 16384 x 32	 write mode: READBEFOREWRITE
+SYN-1023 : Infer 0 Logic DRAMs, 1 Logic BRAMs.
+SYN-1016 : Merged 31 instances.
+SYN-1011 : Flatten model CortexM0_SoC
+SYN-1011 : Flatten model AHBlite_Interconnect
+SYN-1011 : Flatten model AHBlite_Decoder
+SYN-1011 : Flatten model AHBlite_SlaveMUX
+SYN-1016 : Merged 6 instances.
+SYN-1011 : Flatten model AHBlite_Block_RAM
+SYN-1011 : Flatten model Block_RAM
+SYN-1011 : Flatten model cortexm0ds_logic
+SYN-1016 : Merged 7 instances.
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[0]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[10]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[11]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[12]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[13]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[14]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[15]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[16]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[17]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[18]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[19]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[1]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[20]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[21]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[22]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[23]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[24]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[25]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[26]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[27]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[28]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[29]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[2]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[30]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[31]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[3]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[4]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[5]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[6]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[7]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[8]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[9]" in rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[0]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[10]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[11]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[12]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[13]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[14]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[15]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[16]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[17]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[18]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[19]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[1]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[20]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[21]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[22]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[23]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[24]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[25]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[26]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[27]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[28]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[29]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[2]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[30]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[31]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[3]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[4]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[5]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[6]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[7]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[8]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[9]" in rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[0]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[10]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[11]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[12]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[13]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[14]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[15]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[16]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[17]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[18]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[19]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[1]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[20]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[21]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[22]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[23]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[24]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[25]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[26]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[27]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[28]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[29]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[2]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[30]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[31]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[3]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[4]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[5]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[6]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[7]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[8]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[9]" in rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(79)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HREADYOUT_P1" in rtl/CortexM0_SoC.v(165)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(49)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HREADYOUT_P2" in rtl/CortexM0_SoC.v(179)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(49)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HREADYOUT_P3" in rtl/CortexM0_SoC.v(193)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(49)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRESP_P1" in rtl/CortexM0_SoC.v(167)
+SYN-5014 WARNING: the net's pin: pin "i2" in rtl/AHBlite_SlaveMUX.v(64)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRESP_P2" in rtl/CortexM0_SoC.v(181)
+SYN-5014 WARNING: the net's pin: pin "i3" in rtl/AHBlite_SlaveMUX.v(64)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRESP_P3" in rtl/CortexM0_SoC.v(195)
+SYN-5014 WARNING: the net's pin: pin "i4" in rtl/AHBlite_SlaveMUX.v(64)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "bps_en_rx" in rtl/CortexM0_SoC.v(361)
+SYN-5014 WARNING: the net's pin: pin "I[0]" in rtl/CortexM0_SoC.v(363)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "bps_en_tx" in rtl/CortexM0_SoC.v(361)
+SYN-5014 WARNING: the net's pin: pin "I[1]" in rtl/CortexM0_SoC.v(363)
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1014 : Optimize round 1
+SYN-1032 : 22160/382 useful/useless nets, 21723/124 useful/useless insts
+SYN-1019 : Optimized 19 mux instances.
+SYN-1021 : Optimized 38 onehot mux instances.
+SYN-1016 : Merged 21 instances.
+SYN-1015 : Optimize round 1, 412 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 22066/67 useful/useless nets, 21634/49 useful/useless insts
+SYN-1017 : Remove 1 const input seq instances
+SYN-1002 :     Interconncet/SlaveMUX/reg0_b0
+SYN-1019 : Optimized 1 mux instances.
+SYN-1015 : Optimize round 2, 104 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 22058/3 useful/useless nets, 21626/0 useful/useless insts
+SYN-1015 : Optimize round 3, 3 better
+SYN-1014 : Optimize round 4
+SYN-1015 : Optimize round 4, 0 better
+SYN-1014 : Optimize round 1
+SYN-1044 : Optimized 130 inv instances.
+SYN-1032 : 20983/373 useful/useless nets, 20748/321 useful/useless insts
+SYN-1019 : Optimized 1 mux instances.
+SYN-1016 : Merged 2 instances.
+SYN-1015 : Optimize round 1, 3905 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 20001/1 useful/useless nets, 19766/6 useful/useless insts
+SYN-1015 : Optimize round 2, 7 better
+SYN-1014 : Optimize round 3
+SYN-1032 : 19996/0 useful/useless nets, 19761/1 useful/useless insts
+SYN-1015 : Optimize round 3, 4 better
+SYN-1014 : Optimize round 4
+SYN-1015 : Optimize round 4, 0 better
+RUN-1003 : finish command "optimize_rtl" in  3.152076s wall, 3.046875s user + 0.187500s system = 3.234375s CPU (102.6%)
+
+RUN-1004 : used memory is 418 MB, reserved memory is 386 MB, peak memory is 1031 MB
+RUN-1002 : start command "report_area -file EG4S_rtl.area"
+RUN-1001 : standard
+***Report Model: CortexM0_SoC***
+
+IO Statistics
+#IO                         4
+  #input                    3
+  #output                   0
+  #inout                    1
+
+Gate Statistics
+#Basic gates            19756
+  #and                   9461
+  #nand                     0
+  #or                    1961
+  #nor                      0
+  #xor                     72
+  #xnor                     0
+  #buf                      0
+  #not                   6445
+  #bufif1                   1
+  #MX21                   514
+  #FADD                     0
+  #DFF                   1302
+  #LATCH                    0
+#MACRO_ADD                  7
+#MACRO_EQ                   8
+#MACRO_MULT                 1
+#MACRO_MUX                 30
+
+Report Hierarchy Area:
++----------------------------------------------------+
+|Instance  |Module           |gates  |seq    |macros |
++----------------------------------------------------+
+|top       |CortexM0_SoC     |18454  |1302   |20     |
+|  u_logic |cortexm0ds_logic |18416  |1299   |14     |
++----------------------------------------------------+
+
+RUN-1002 : start command "export_db EG4S_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1003 : finish command "export_db EG4S_rtl.db" in  2.072492s wall, 1.843750s user + 0.250000s system = 2.093750s CPU (101.0%)
+
+RUN-1004 : used memory is 581 MB, reserved memory is 556 MB, peak memory is 1031 MB
+RUN-1002 : start command "optimize_gate -maparea EG4S_gate.area"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.30786/license/Anlogic.lic
+RUN-1001 : Print Gate Property
+RUN-1001 : ----------------------------------------------------------
+RUN-1001 :          Parameters         |  Settings  |  Default Values  
+RUN-1001 : ----------------------------------------------------------
+RUN-1001 :        auto_partition       |    fine    |       fine       
+RUN-1001 :         cascade_dsp         |    off     |       off        
+RUN-1001 :         cascade_eram        |     on     |        on        
+RUN-1001 :        gate_sim_model       |    off     |       off        
+RUN-1001 :        map_sim_model        |    off     |       off        
+RUN-1001 :           opt_area          |   medium   |      medium      
+RUN-1001 :          opt_timing         |    auto    |       auto       
+RUN-1001 :         pack_effort         |   medium   |      medium      
+RUN-1001 :      pack_lslice_ripple     |     on     |        on        
+RUN-1001 :   pack_lslice_ripple_ratio  |    0.5     |       0.5        
+RUN-1001 :        pack_seq_in_io       |     on     |        on        
+RUN-1001 :        ph1_mux_ratio        |    1.0     |       1.0        
+RUN-1001 :            report           |  standard  |     standard     
+RUN-1001 : ----------------------------------------------------------
+SYN-2001 : Map 4 IOs to PADs
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2593 : bram inst: RAM_CODE/ram_mem_al_u00 will be optimized to a new one with A-width 8 due to unused data out
+SYN-2593 : bram inst: RAM_CODE/ram_mem_al_u10 will be optimized to a new one with A-width 8 due to unused data out
+SYN-2593 : bram inst: RAM_CODE/ram_mem_al_u20 will be optimized to a new one with A-width 8 due to unused data out
+SYN-2593 : bram inst: RAM_CODE/ram_mem_al_u30 will be optimized to a new one with A-width 8 due to unused data out
+SYN-2512 : LOGIC BRAM "RAM_CODE/ram_mem_al_u00"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ram_mem_al_u10"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ram_mem_al_u20"
+SYN-2512 : LOGIC BRAM "RAM_CODE/ram_mem_al_u30"
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 20249/68 useful/useless nets, 19947/36 useful/useless insts
+SYN-1016 : Merged 37 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 141 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-2501 : Optimize round 1
+SYN-2501 : Optimize round 1, 18 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 0 better
+SYN-1032 : 20226/1 useful/useless nets, 19924/1 useful/useless insts
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2571 : Map 1 macro multiplier
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 20089/68 useful/useless nets, 19766/1 useful/useless insts
+SYN-2571 : Optimize after map_dsp, round 1, 69 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-2501 : Optimize round 1
+SYN-2501 : Optimize round 1, 0 better
+SYN-2501 : Map 8 macro adder
+SYN-1016 : Merged 8 instances.
+SYN-1032 : 20523/2 useful/useless nets, 20268/0 useful/useless insts
+SYN-3004 : Optimized 1 const0 DFF(s)
+SYN-1032 : 21160/4 useful/useless nets, 20905/4 useful/useless insts
+SYN-1032 : 20591/157 useful/useless nets, 20270/156 useful/useless insts
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=4, #lut = 37 (4.00), #lev = 2 (0.94)
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=4, #lut = 37 (4.00), #lev = 2 (0.94)
+SYN-3001 : Logic optimization runtime opt =   0.01 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 82 instances into 38 LUTs, name keeping = 89%.
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=5, #lut = 4728 (3.71), #lev = 19 (9.41)
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=5, #lut = 4755 (3.75), #lev = 15 (8.22)
+SYN-3001 : Logic optimization runtime opt =   0.71 sec, map =  51.78 sec
+SYN-3001 : Mapper mapped 18636 instances into 4757 LUTs, name keeping = 35%.
+RUN-1002 : start command "report_area -file EG4S_gate.area"
+RUN-1001 : standard
+***Report Model: CortexM0_SoC***
+
+IO Statistics
+#IO                         4
+  #input                    3
+  #output                   0
+  #inout                    1
+
+LUT Statistics
+#Total_luts              4968
+  #lut4                  3850
+  #lut5                   945
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b             173
+
+Utilization Statistics
+#lut                     4968   out of  19600   25.35%
+#reg                     1302   out of  19600    6.64%
+#le                         0
+#dsp                        3   out of     29   10.34%
+#bram                      64   out of     64  100.00%
+  #bram9k                  64
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                        4   out of    188    2.13%
+  #ireg                     0
+  #oreg                     0
+  #treg                     0
+#pll                        0   out of      4    0.00%
+
+Report Hierarchy Area:
++--------------------------------------------------------------------+
+|Instance  |Module           |lut    |ripple |seq    |bram   |dsp    |
++--------------------------------------------------------------------+
+|top       |CortexM0_SoC     |4795   |173    |1302   |64     |3      |
+|  u_logic |cortexm0ds_logic |4757   |173    |1298   |0      |3      |
++--------------------------------------------------------------------+
+
+SYN-1001 : Packing model "CortexM0_SoC" ...
+SYN-4010 : Pack lib has 44 rtl pack models with 17 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 4 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 0 carry chain into lslice
+SYN-4007 : Packing 0 adder to BLE ...
+SYN-4008 : Packed 0 adder and 0 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+SYN-1001 : Packing model "cortexm0ds_logic" ...
+SYN-4010 : Pack lib has 44 rtl pack models with 17 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1017 : Remove 2 const input seq instances
+SYN-1002 :     K7vpw6_reg
+SYN-1002 :     Xbopw6_reg
+SYN-1015 : Optimize round 1, 2 better
+SYN-1014 : Optimize round 2
+SYN-1015 : Optimize round 2, 0 better
+SYN-4002 : Packing 1296 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 3 carry chain into lslice
+SYN-4007 : Packing 76 adder to BLE ...
+SYN-4008 : Packed 76 adder and 0 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+RUN-1003 : finish command "optimize_gate -maparea EG4S_gate.area" in  10.185272s wall, 10.187500s user + 0.078125s system = 10.265625s CPU (100.8%)
+
+RUN-1004 : used memory is 607 MB, reserved memory is 577 MB, peak memory is 1031 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model CortexM0_SoC
+SYN-1011 : Flatten model cortexm0ds_logic
+SYN-1016 : Merged 3 instances.
+SYN-1016 : Merged 2 instances.
+RUN-1002 : start command "export_db EG4S_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1003 : finish command "export_db EG4S_gate.db" in  2.476241s wall, 2.140625s user + 0.343750s system = 2.484375s CPU (100.3%)
+
+RUN-1004 : used memory is 646 MB, reserved memory is 622 MB, peak memory is 1031 MB
+RUN-1002 : start command "place"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.30786/license/Anlogic.lic
+RUN-1001 : Print Place Property
+RUN-1001 : ------------------------------------------------
+RUN-1001 :     Parameters    |  Settings  |  Default Values  
+RUN-1001 : ------------------------------------------------
+RUN-1001 :   detailed_place  |     on     |        on        
+RUN-1001 :       effort      |   medium   |      medium      
+RUN-1001 :     opt_timing    |   medium   |      medium      
+RUN-1001 :    pr_strategy    |     1      |        1         
+RUN-1001 :     relaxation    |    1.00    |       1.00       
+RUN-1001 :      retiming     |    off     |       off        
+RUN-1001 : ------------------------------------------------
+RUN-1002 : start command "set_param place timing_factor 2.5"
+RUN-1002 : start command "set_param route tactics length"
+RUN-1002 : start command "set_param route least_critical_net_perc 20"
+RUN-1002 : start command "set_param route most_critical_net_perc 60"
+PHY-3001 : Placer runs in 16 thread(s).
+SYN-4024 : Net "clk_pad" drive clk pins.
+SYN-4024 : Net "u_logic/SWCLKTCK_pad" drive clk pins.
+SYN-4025 : Tag rtl::Net clk_pad as clock net
+SYN-4025 : Tag rtl::Net u_logic/SWCLKTCK_pad as clock net
+SYN-4026 : Tagged 2 rtl::Net as clock net
+SYN-4015 : Create BUFG instance for clk Net u_logic/SWCLKTCK_pad to drive 107 clock pins.
+PHY-1001 : Populate physical database on model CortexM0_SoC.
+RUN-1001 : There are total 6232 instances
+RUN-1001 : 4792 luts, 1300 seqs, 40 mslices, 25 lslices, 4 pads, 64 brams, 3 dsps
+RUN-1001 : There are total 6447 nets
+RUN-1001 : 3371 nets have 2 pins
+RUN-1001 : 2212 nets have [3 - 5] pins
+RUN-1001 : 467 nets have [6 - 10] pins
+RUN-1001 : 210 nets have [11 - 20] pins
+RUN-1001 : 183 nets have [21 - 99] pins
+RUN-1001 : 4 nets have 100+ pins
+PHY-3001 : Initial placement ...
+PHY-3001 : design contains 6230 instances, 4792 luts, 1300 seqs, 65 slices, 8 macros(65 instances: 40 mslices 25 lslices)
+PHY-3001 : Cell area utilization is 25%
+PHY-3001 : Global placement ...
+PHY-3001 : Initial: Len = 1.58669e+06
+PHY-3001 : Clustering ...
+PHY-3001 : Level 0 #clusters 6230.
+PHY-3001 : End clustering;  0.000038s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-3001 : Run with size of 4
+PHY-3001 : Cell area utilization is 25%
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(1): len = 1.23008e+06, overlap = 150.75
+PHY-3002 : Step(2): len = 929233, overlap = 153.25
+PHY-3002 : Step(3): len = 632124, overlap = 211.563
+PHY-3002 : Step(4): len = 518759, overlap = 259.031
+PHY-3002 : Step(5): len = 379850, overlap = 308.531
+PHY-3002 : Step(6): len = 356770, overlap = 331.125
+PHY-3002 : Step(7): len = 262186, overlap = 371.688
+PHY-3002 : Step(8): len = 251010, overlap = 381.531
+PHY-3002 : Step(9): len = 211754, overlap = 392.563
+PHY-3002 : Step(10): len = 205492, overlap = 399.594
+PHY-3002 : Step(11): len = 188437, overlap = 407.781
+PHY-3002 : Step(12): len = 179184, overlap = 417
+PHY-3002 : Step(13): len = 173181, overlap = 441.188
+PHY-3002 : Step(14): len = 161711, overlap = 446.188
+PHY-3002 : Step(15): len = 154934, overlap = 453.875
+PHY-3002 : Step(16): len = 148369, overlap = 464.625
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 1.82716e-06
+PHY-3002 : Step(17): len = 185868, overlap = 443.125
+PHY-3002 : Step(18): len = 196859, overlap = 441.438
+PHY-3002 : Step(19): len = 159414, overlap = 440.625
+PHY-3002 : Step(20): len = 158659, overlap = 440
+PHY-3002 : Step(21): len = 147312, overlap = 419.438
+PHY-3002 : Step(22): len = 147555, overlap = 410.125
+PHY-3002 : Step(23): len = 146714, overlap = 412.594
+PHY-3002 : Step(24): len = 146419, overlap = 410.188
+PHY-3002 : Step(25): len = 143526, overlap = 412.094
+PHY-3002 : Step(26): len = 143604, overlap = 405.219
+PHY-3002 : Step(27): len = 144528, overlap = 404.594
+PHY-3002 : Step(28): len = 140289, overlap = 391.406
+PHY-3002 : Step(29): len = 138960, overlap = 389.938
+PHY-3002 : Step(30): len = 139745, overlap = 393.281
+PHY-3002 : Step(31): len = 139164, overlap = 385.344
+PHY-3002 : Step(32): len = 139692, overlap = 391.25
+PHY-3002 : Step(33): len = 138230, overlap = 394.625
+PHY-3002 : Step(34): len = 138398, overlap = 394.844
+PHY-3002 : Step(35): len = 136033, overlap = 393.25
+PHY-3002 : Step(36): len = 135651, overlap = 388.031
+PHY-3002 : Step(37): len = 134324, overlap = 386.156
+PHY-3002 : Step(38): len = 131797, overlap = 399.375
+PHY-3002 : Step(39): len = 131970, overlap = 399.219
+PHY-3002 : Step(40): len = 132074, overlap = 401.063
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 3.65431e-06
+PHY-3002 : Step(41): len = 131879, overlap = 400.5
+PHY-3002 : Step(42): len = 132680, overlap = 393.375
+PHY-3002 : Step(43): len = 135080, overlap = 388.344
+PHY-3001 : :::3::: Try harder cell spreading with beta_ = 5.91268e-06
+PHY-3002 : Step(44): len = 135234, overlap = 380.625
+PHY-3002 : Step(45): len = 138284, overlap = 384.563
+PHY-3002 : Step(46): len = 154438, overlap = 361.594
+PHY-3002 : Step(47): len = 157840, overlap = 343.875
+PHY-3002 : Step(48): len = 165999, overlap = 317.875
+PHY-3002 : Step(49): len = 169834, overlap = 319.813
+PHY-3002 : Step(50): len = 170531, overlap = 320.469
+PHY-3002 : Step(51): len = 172359, overlap = 295.125
+PHY-3002 : Step(52): len = 174094, overlap = 288.719
+PHY-3002 : Step(53): len = 172284, overlap = 279.5
+PHY-3002 : Step(54): len = 172088, overlap = 266.656
+PHY-3002 : Step(55): len = 172760, overlap = 261.75
+PHY-3002 : Step(56): len = 172964, overlap = 255.844
+PHY-3002 : Step(57): len = 173586, overlap = 252.281
+PHY-3002 : Step(58): len = 174751, overlap = 236.656
+PHY-3002 : Step(59): len = 175645, overlap = 239.563
+PHY-3002 : Step(60): len = 176114, overlap = 243.906
+PHY-3002 : Step(61): len = 177109, overlap = 244.563
+PHY-3002 : Step(62): len = 178325, overlap = 237.25
+PHY-3001 : :::4::: Try harder cell spreading with beta_ = 1.18254e-05
+PHY-3002 : Step(63): len = 178924, overlap = 241.406
+PHY-3002 : Step(64): len = 179376, overlap = 245.063
+PHY-3002 : Step(65): len = 184794, overlap = 233.938
+PHY-3002 : Step(66): len = 191768, overlap = 220.344
+PHY-3002 : Step(67): len = 195833, overlap = 209.063
+PHY-3002 : Step(68): len = 200276, overlap = 197.531
+PHY-3002 : Step(69): len = 203306, overlap = 197.219
+PHY-3002 : Step(70): len = 206124, overlap = 195.844
+PHY-3002 : Step(71): len = 207846, overlap = 189.188
+PHY-3002 : Step(72): len = 209926, overlap = 181.094
+PHY-3002 : Step(73): len = 210782, overlap = 172.156
+PHY-3002 : Step(74): len = 211745, overlap = 163.5
+PHY-3002 : Step(75): len = 213839, overlap = 157.219
+PHY-3002 : Step(76): len = 213664, overlap = 158.719
+PHY-3002 : Step(77): len = 213834, overlap = 149.531
+PHY-3002 : Step(78): len = 213938, overlap = 148.188
+PHY-3001 : :::5::: Try harder cell spreading with beta_ = 2.33946e-05
+PHY-3002 : Step(79): len = 215048, overlap = 146.5
+PHY-3002 : Step(80): len = 215973, overlap = 145.563
+PHY-3002 : Step(81): len = 218153, overlap = 141.063
+PHY-3002 : Step(82): len = 221186, overlap = 135.313
+PHY-3002 : Step(83): len = 228887, overlap = 127.656
+PHY-3002 : Step(84): len = 231611, overlap = 120.094
+PHY-3002 : Step(85): len = 235780, overlap = 120.563
+PHY-3002 : Step(86): len = 239217, overlap = 111.219
+PHY-3002 : Step(87): len = 243713, overlap = 112.688
+PHY-3002 : Step(88): len = 247258, overlap = 110.906
+PHY-3002 : Step(89): len = 248174, overlap = 107.438
+PHY-3002 : Step(90): len = 249296, overlap = 103.781
+PHY-3002 : Step(91): len = 250163, overlap = 90.8125
+PHY-3002 : Step(92): len = 250966, overlap = 95.8438
+PHY-3002 : Step(93): len = 251045, overlap = 102.406
+PHY-3002 : Step(94): len = 251042, overlap = 90.5313
+PHY-3002 : Step(95): len = 251188, overlap = 95.375
+PHY-3001 : :::6::: Try harder cell spreading with beta_ = 4.45713e-05
+PHY-3002 : Step(96): len = 251549, overlap = 95.25
+PHY-3002 : Step(97): len = 251996, overlap = 101.781
+PHY-3002 : Step(98): len = 253233, overlap = 98.7813
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.022410s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (139.4%)
+
+PHY-3001 : Run with size of 4
+PHY-3001 : Cell area utilization is 30%
+PHY-3001 : Analyzing congestion ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 677592, over cnt = 1460(4%), over = 2448, worst = 9
+PHY-1002 : len = 696576, over cnt = 1201(3%), over = 1636, worst = 5
+PHY-1002 : len = 715872, over cnt = 767(2%), over = 1007, worst = 4
+PHY-1002 : len = 742080, over cnt = 397(1%), over = 505, worst = 4
+PHY-1002 : len = 750664, over cnt = 175(0%), over = 216, worst = 3
+PHY-1001 : End global iterations;  0.406884s wall, 0.765625s user + 0.000000s system = 0.765625s CPU (188.2%)
+
+PHY-1001 : Congestion index: top1 = 73.13, top5 = 63.75, top10 = 55.00, top15 = 48.75.
+PHY-3001 : End congestion estimation;  0.505116s wall, 0.859375s user + 0.000000s system = 0.859375s CPU (170.1%)
+
+PHY-3001 : Update density targets...
+PHY-3001 : Update congestion history...
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 2.69346e-06
+PHY-3002 : Step(99): len = 235574, overlap = 123.406
+PHY-3002 : Step(100): len = 232230, overlap = 159.875
+PHY-3002 : Step(101): len = 214057, overlap = 201.344
+PHY-3002 : Step(102): len = 200640, overlap = 228.688
+PHY-3002 : Step(103): len = 184206, overlap = 244.594
+PHY-3002 : Step(104): len = 177473, overlap = 270.531
+PHY-3002 : Step(105): len = 170800, overlap = 288
+PHY-3002 : Step(106): len = 166566, overlap = 298
+PHY-3002 : Step(107): len = 158607, overlap = 309.75
+PHY-3002 : Step(108): len = 157752, overlap = 311.344
+PHY-3002 : Step(109): len = 155447, overlap = 313.594
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 5.38691e-06
+PHY-3002 : Step(110): len = 161871, overlap = 301.5
+PHY-3002 : Step(111): len = 168515, overlap = 293.656
+PHY-3002 : Step(112): len = 179539, overlap = 275.156
+PHY-3002 : Step(113): len = 185335, overlap = 256.594
+PHY-3002 : Step(114): len = 182105, overlap = 243.594
+PHY-3002 : Step(115): len = 181560, overlap = 237
+PHY-3002 : Step(116): len = 181582, overlap = 235.156
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 1.07738e-05
+PHY-3002 : Step(117): len = 199983, overlap = 210.094
+PHY-3002 : Step(118): len = 213046, overlap = 197
+PHY-3002 : Step(119): len = 226066, overlap = 171.438
+PHY-3002 : Step(120): len = 231695, overlap = 141.375
+PHY-3002 : Step(121): len = 231638, overlap = 122.469
+PHY-3002 : Step(122): len = 228464, overlap = 112.875
+PHY-3002 : Step(123): len = 227056, overlap = 109.688
+PHY-3002 : Step(124): len = 226672, overlap = 107.469
+PHY-3001 : :::3::: Try harder cell spreading with beta_ = 2.15476e-05
+PHY-3002 : Step(125): len = 247680, overlap = 85.75
+PHY-3002 : Step(126): len = 257808, overlap = 79.9688
+PHY-3002 : Step(127): len = 265989, overlap = 70.3438
+PHY-3002 : Step(128): len = 266545, overlap = 51.125
+PHY-3002 : Step(129): len = 267262, overlap = 46.8125
+PHY-3002 : Step(130): len = 264607, overlap = 44.0313
+PHY-3002 : Step(131): len = 263029, overlap = 48.3125
+PHY-3002 : Step(132): len = 263076, overlap = 48.8125
+PHY-3002 : Step(133): len = 262907, overlap = 50.0625
+PHY-3001 : :::4::: Try harder cell spreading with beta_ = 4.30953e-05
+PHY-3002 : Step(134): len = 284029, overlap = 29.25
+PHY-3002 : Step(135): len = 293740, overlap = 23.5625
+PHY-3002 : Step(136): len = 300186, overlap = 19.5938
+PHY-3002 : Step(137): len = 300635, overlap = 18.875
+PHY-3002 : Step(138): len = 298206, overlap = 19.0313
+PHY-3002 : Step(139): len = 296592, overlap = 9.4375
+PHY-3002 : Step(140): len = 296946, overlap = 4.34375
+PHY-3002 : Step(141): len = 298220, overlap = 4.84375
+PHY-3002 : Step(142): len = 299152, overlap = 5.46875
+PHY-3001 : :::5::: Try harder cell spreading with beta_ = 8.61906e-05
+PHY-3002 : Step(143): len = 315169, overlap = 1.25
+PHY-3002 : Step(144): len = 325493, overlap = 2
+PHY-3002 : Step(145): len = 331850, overlap = 1.875
+PHY-3002 : Step(146): len = 333491, overlap = 1.75
+PHY-3002 : Step(147): len = 332338, overlap = 1.4375
+PHY-3002 : Step(148): len = 331424, overlap = 1.25
+PHY-3002 : Step(149): len = 331567, overlap = 1.5625
+PHY-3002 : Step(150): len = 331964, overlap = 4.15625
+PHY-3002 : Step(151): len = 331376, overlap = 3.6875
+PHY-3001 : :::6::: Try harder cell spreading with beta_ = 0.000172381
+PHY-3002 : Step(152): len = 343613, overlap = 2.625
+PHY-3002 : Step(153): len = 349419, overlap = 2
+PHY-3002 : Step(154): len = 354129, overlap = 1.5
+PHY-3002 : Step(155): len = 355684, overlap = 1.6875
+PHY-3002 : Step(156): len = 356780, overlap = 1.65625
+PHY-3002 : Step(157): len = 356820, overlap = 1.5
+PHY-3002 : Step(158): len = 357225, overlap = 1.375
+PHY-3002 : Step(159): len = 356911, overlap = 1.0625
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 30%
+PHY-3001 : Analyzing congestion ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 999456, over cnt = 501(1%), over = 776, worst = 7
+PHY-1002 : len = 1.00702e+06, over cnt = 257(0%), over = 362, worst = 7
+PHY-1002 : len = 1.00925e+06, over cnt = 157(0%), over = 225, worst = 7
+PHY-1002 : len = 1.01088e+06, over cnt = 95(0%), over = 153, worst = 7
+PHY-1002 : len = 1.01009e+06, over cnt = 84(0%), over = 141, worst = 7
+PHY-1001 : End global iterations;  0.254650s wall, 0.796875s user + 0.015625s system = 0.812500s CPU (319.1%)
+
+PHY-1001 : Congestion index: top1 = 53.13, top5 = 44.38, top10 = 39.38, top15 = 36.88.
+PHY-3001 : End congestion estimation;  0.377709s wall, 0.921875s user + 0.015625s system = 0.937500s CPU (248.2%)
+
+PHY-3001 : Update density targets...
+PHY-3001 : Update congestion history...
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0.000103717
+PHY-3002 : Step(160): len = 356023, overlap = 18.375
+PHY-3002 : Step(161): len = 353207, overlap = 16.0625
+PHY-3002 : Step(162): len = 340190, overlap = 14.625
+PHY-3002 : Step(163): len = 328799, overlap = 14.7188
+PHY-3002 : Step(164): len = 322394, overlap = 15.2813
+PHY-3002 : Step(165): len = 318025, overlap = 15.0938
+PHY-3002 : Step(166): len = 312046, overlap = 16.0313
+PHY-3002 : Step(167): len = 309731, overlap = 19.4063
+PHY-3002 : Step(168): len = 306794, overlap = 17.0625
+PHY-3002 : Step(169): len = 301575, overlap = 17.9688
+PHY-3002 : Step(170): len = 300015, overlap = 18.0625
+PHY-3002 : Step(171): len = 297116, overlap = 17.4375
+PHY-3002 : Step(172): len = 295551, overlap = 21.6563
+PHY-3002 : Step(173): len = 293434, overlap = 27.5313
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 0.000207434
+PHY-3002 : Step(174): len = 300452, overlap = 19.625
+PHY-3002 : Step(175): len = 307803, overlap = 17.6563
+PHY-3002 : Step(176): len = 315884, overlap = 15.3125
+PHY-3002 : Step(177): len = 313608, overlap = 13.125
+PHY-3002 : Step(178): len = 312925, overlap = 13.3438
+PHY-3002 : Step(179): len = 312145, overlap = 14.8125
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.000349039
+PHY-3002 : Step(180): len = 317865, overlap = 12.4063
+PHY-3002 : Step(181): len = 322793, overlap = 13.0313
+PHY-3002 : Step(182): len = 330352, overlap = 12.6875
+PHY-3002 : Step(183): len = 334952, overlap = 11.1875
+PHY-3002 : Step(184): len = 335268, overlap = 7.75
+PHY-3002 : Step(185): len = 335434, overlap = 7.46875
+PHY-3002 : Step(186): len = 335449, overlap = 7.375
+PHY-3002 : Step(187): len = 334762, overlap = 8.21875
+PHY-3002 : Step(188): len = 334692, overlap = 8.25
+PHY-3002 : Step(189): len = 334436, overlap = 8.8125
+PHY-3001 : :::3::: Try harder cell spreading with beta_ = 0.000698078
+PHY-3002 : Step(190): len = 338224, overlap = 7.65625
+PHY-3002 : Step(191): len = 345107, overlap = 7.25
+PHY-3002 : Step(192): len = 351171, overlap = 5.53125
+PHY-3002 : Step(193): len = 351226, overlap = 4.5625
+PHY-3002 : Step(194): len = 351530, overlap = 4.8125
+PHY-3002 : Step(195): len = 352632, overlap = 4.125
+PHY-3002 : Step(196): len = 354051, overlap = 6.0625
+PHY-3002 : Step(197): len = 354956, overlap = 5.71875
+PHY-3002 : Step(198): len = 355783, overlap = 5.53125
+PHY-3002 : Step(199): len = 355897, overlap = 4.96875
+PHY-3002 : Step(200): len = 356264, overlap = 5.125
+PHY-3002 : Step(201): len = 356832, overlap = 4.4375
+PHY-3001 : :::4::: Try harder cell spreading with beta_ = 0.00121191
+PHY-3002 : Step(202): len = 358670, overlap = 6
+PHY-3002 : Step(203): len = 360795, overlap = 3.03125
+PHY-3002 : Step(204): len = 362988, overlap = 2.71875
+OPT-1001 : Start physical optimization ...
+OPT-1001 : Total overflow 68.09 peak overflow 1.19
+OPT-1001 : Start high-fanout net optimization ...
+OPT-1001 : Update timing in global mode
+PHY-1001 : Start incremental global routing ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 1.08611e+06, over cnt = 266(0%), over = 326, worst = 3
+PHY-1002 : len = 1.08766e+06, over cnt = 169(0%), over = 193, worst = 2
+PHY-1002 : len = 1.08831e+06, over cnt = 107(0%), over = 118, worst = 2
+PHY-1002 : len = 1.08834e+06, over cnt = 93(0%), over = 104, worst = 2
+PHY-1002 : len = 1.08832e+06, over cnt = 68(0%), over = 78, worst = 2
+PHY-1001 : End global iterations;  0.235465s wall, 0.515625s user + 0.015625s system = 0.531250s CPU (225.6%)
+
+PHY-1001 : Congestion index: top1 = 51.25, top5 = 43.75, top10 = 40.63, top15 = 36.25.
+PHY-1001 : End incremental global routing;  0.358838s wall, 0.625000s user + 0.015625s system = 0.640625s CPU (178.5%)
+
+RUN-1002 : start command "start_timer"
+TMR-5001 WARNING: No sdc constraints found while initiating timer.
+TMR-2505 : Start building timing graph for model CortexM0_SoC.
+TMR-2506 : Build timing graph completely. Port num: 4, tpin num: 29745, tnet num: 6445, tinst num: 6230, tnode num: 33910, tedge num: 48316.
+TMR-2508 : Levelizing timing graph completed, there are 53 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+OPT-1001 : End timing update;  0.237360s wall, 0.203125s user + 0.046875s system = 0.250000s CPU (105.3%)
+
+OPT-1001 : 0 high-fanout net processed.
+OPT-1001 : End high-fanout net optimization;  0.904418s wall, 1.125000s user + 0.062500s system = 1.187500s CPU (131.3%)
+
+OPT-1001 : End physical optimization;  0.979055s wall, 1.453125s user + 0.078125s system = 1.531250s CPU (156.4%)
+
+PHY-3001 : Start packing ...
+SYN-4007 : Packing 0 MUX to BLE ...
+SYN-4008 : Packed 0 MUX and 0 SEQ to BLE.
+SYN-4007 : Packing 4792 LUT to BLE ...
+SYN-4008 : Packed 4792 LUT and 493 SEQ to BLE.
+SYN-4003 : Packing 807 remaining SEQ's ...
+SYN-4005 : Packed 793 SEQ with LUT/SLICE
+SYN-4006 : 3509 single LUT's are left
+SYN-4006 : 14 single SEQ's are left
+SYN-4011 : Packing model "CortexM0_SoC" (AL_USER_NORMAL) with 4806/4946 primitive instances ...
+PHY-3001 : End packing;  0.591481s wall, 0.625000s user + 0.000000s system = 0.625000s CPU (105.7%)
+
+PHY-1001 : Populate physical database on model CortexM0_SoC.
+RUN-1001 : There are total 2859 instances
+RUN-1001 : 1392 mslices, 1392 lslices, 4 pads, 64 brams, 3 dsps
+RUN-1001 : There are total 6088 nets
+RUN-1001 : 2706 nets have 2 pins
+RUN-1001 : 2398 nets have [3 - 5] pins
+RUN-1001 : 565 nets have [6 - 10] pins
+RUN-1001 : 222 nets have [11 - 20] pins
+RUN-1001 : 194 nets have [21 - 99] pins
+RUN-1001 : 3 nets have 100+ pins
+PHY-3001 : design contains 2857 instances, 2784 slices, 8 macros(65 instances: 40 mslices 25 lslices)
+PHY-3001 : Cell area utilization is 34%
+PHY-3001 : After packing: Len = 375971, Over = 21.75
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 34%
+PHY-3001 : Analyzing congestion ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 1.11227e+06, over cnt = 239(0%), over = 271, worst = 2
+PHY-1002 : len = 1.11321e+06, over cnt = 156(0%), over = 177, worst = 2
+PHY-1002 : len = 1.11358e+06, over cnt = 111(0%), over = 122, worst = 2
+PHY-1002 : len = 1.11372e+06, over cnt = 88(0%), over = 98, worst = 2
+PHY-1002 : len = 1.11186e+06, over cnt = 67(0%), over = 77, worst = 2
+PHY-1001 : End global iterations;  0.239070s wall, 0.750000s user + 0.015625s system = 0.765625s CPU (320.3%)
+
+PHY-1001 : Congestion index: top1 = 52.50, top5 = 45.63, top10 = 39.38, top15 = 36.25.
+PHY-3001 : End congestion estimation;  0.384359s wall, 0.906250s user + 0.031250s system = 0.937500s CPU (243.9%)
+
+PHY-3001 : Update density targets...
+PHY-3001 : Update congestion history...
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 4.31777e-05
+PHY-3002 : Step(205): len = 360507, overlap = 25.5
+PHY-3002 : Step(206): len = 348308, overlap = 44.25
+PHY-3002 : Step(207): len = 335870, overlap = 49.25
+PHY-3002 : Step(208): len = 329721, overlap = 50
+PHY-3002 : Step(209): len = 324343, overlap = 53.25
+PHY-3002 : Step(210): len = 318541, overlap = 52.25
+PHY-3002 : Step(211): len = 314941, overlap = 56.5
+PHY-3002 : Step(212): len = 311100, overlap = 59.75
+PHY-3002 : Step(213): len = 309207, overlap = 62.5
+PHY-3002 : Step(214): len = 307401, overlap = 63.25
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 8.63553e-05
+PHY-3002 : Step(215): len = 322954, overlap = 51
+PHY-3002 : Step(216): len = 335190, overlap = 46.75
+PHY-3002 : Step(217): len = 335136, overlap = 41.75
+PHY-3002 : Step(218): len = 336148, overlap = 41.5
+PHY-3002 : Step(219): len = 338752, overlap = 36.25
+PHY-3002 : Step(220): len = 340503, overlap = 34.25
+PHY-3002 : Step(221): len = 341518, overlap = 35.75
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.000172711
+PHY-3002 : Step(222): len = 353331, overlap = 28.5
+PHY-3002 : Step(223): len = 368181, overlap = 19.75
+PHY-3002 : Step(224): len = 369309, overlap = 19
+PHY-3002 : Step(225): len = 371452, overlap = 15.5
+PHY-3002 : Step(226): len = 378570, overlap = 15.25
+PHY-3002 : Step(227): len = 384729, overlap = 12.25
+PHY-3002 : Step(228): len = 387831, overlap = 9.75
+PHY-3002 : Step(229): len = 389687, overlap = 10.25
+PHY-3002 : Step(230): len = 390953, overlap = 9.25
+PHY-3002 : Step(231): len = 392030, overlap = 10
+PHY-3002 : Step(232): len = 392207, overlap = 11.5
+PHY-3001 : :::3::: Try harder cell spreading with beta_ = 0.000345421
+PHY-3002 : Step(233): len = 399822, overlap = 9.25
+PHY-3002 : Step(234): len = 409810, overlap = 8.25
+PHY-3002 : Step(235): len = 412806, overlap = 7
+PHY-3002 : Step(236): len = 413823, overlap = 6
+PHY-3002 : Step(237): len = 416236, overlap = 7.5
+PHY-3002 : Step(238): len = 419655, overlap = 6
+PHY-3002 : Step(239): len = 421714, overlap = 5.75
+PHY-3002 : Step(240): len = 423454, overlap = 6.5
+PHY-3002 : Step(241): len = 424277, overlap = 5.5
+PHY-3002 : Step(242): len = 424041, overlap = 6.75
+PHY-3002 : Step(243): len = 424033, overlap = 4.25
+PHY-3002 : Step(244): len = 424103, overlap = 3.25
+PHY-3002 : Step(245): len = 424245, overlap = 2.25
+PHY-3002 : Step(246): len = 424312, overlap = 3.25
+PHY-3002 : Step(247): len = 424855, overlap = 4.5
+PHY-3002 : Step(248): len = 424842, overlap = 5
+PHY-3001 : :::4::: Try harder cell spreading with beta_ = 0.000690842
+PHY-3002 : Step(249): len = 429183, overlap = 3
+PHY-3002 : Step(250): len = 434122, overlap = 3.5
+PHY-3002 : Step(251): len = 435056, overlap = 4.25
+PHY-3002 : Step(252): len = 435439, overlap = 4
+PHY-3002 : Step(253): len = 435984, overlap = 4.25
+PHY-3001 : :::5::: Try harder cell spreading with beta_ = 0.00134416
+PHY-3002 : Step(254): len = 438826, overlap = 3.25
+PHY-3002 : Step(255): len = 441956, overlap = 2.75
+PHY-3002 : Step(256): len = 445713, overlap = 2.75
+PHY-3002 : Step(257): len = 445605, overlap = 2.25
+PHY-3002 : Step(258): len = 444477, overlap = 2
+PHY-3002 : Step(259): len = 443732, overlap = 2
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  1.300325s wall, 1.218750s user + 2.359375s system = 3.578125s CPU (275.2%)
+
+PHY-3001 : Trial Legalized: Len = 453173
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 34%
+PHY-3001 : Analyzing congestion ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 1.32129e+06, over cnt = 169(0%), over = 186, worst = 2
+PHY-1002 : len = 1.32207e+06, over cnt = 103(0%), over = 113, worst = 2
+PHY-1002 : len = 1.32245e+06, over cnt = 59(0%), over = 62, worst = 2
+PHY-1002 : len = 1.32256e+06, over cnt = 41(0%), over = 41, worst = 1
+PHY-1002 : len = 1.32241e+06, over cnt = 29(0%), over = 29, worst = 1
+PHY-1001 : End global iterations;  0.273787s wall, 0.953125s user + 0.000000s system = 0.953125s CPU (348.1%)
+
+PHY-1001 : Congestion index: top1 = 56.25, top5 = 46.25, top10 = 40.63, top15 = 36.25.
+PHY-3001 : End congestion estimation;  0.432453s wall, 1.109375s user + 0.000000s system = 1.109375s CPU (256.5%)
+
+PHY-3001 : Update density targets...
+PHY-3001 : Update congestion history...
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0.000116138
+PHY-3002 : Step(260): len = 428918, overlap = 3
+PHY-3002 : Step(261): len = 418132, overlap = 6
+PHY-3002 : Step(262): len = 411298, overlap = 9.5
+PHY-3002 : Step(263): len = 405150, overlap = 9.75
+PHY-3002 : Step(264): len = 402319, overlap = 10.75
+PHY-3002 : Step(265): len = 398985, overlap = 14.25
+PHY-3002 : Step(266): len = 397179, overlap = 13.25
+PHY-3002 : Step(267): len = 395160, overlap = 12.75
+PHY-3002 : Step(268): len = 394072, overlap = 14.25
+PHY-3002 : Step(269): len = 393175, overlap = 14
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.016014s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (97.6%)
+
+PHY-3001 : Legalized: Len = 399197, Over = 0
+PHY-3001 : Spreading special nets. 1 overflows in 2952 tiles.
+PHY-3001 : End spreading;  0.013950s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-3001 : 1 instances has been re-located, deltaX = 0, deltaY = 0, maxDist = 0.
+PHY-3001 : Final: Len = 399219, Over = 0
+OPT-1001 : Start physical optimization ...
+OPT-1001 : Total overflow 0.00 peak overflow 0.00
+OPT-1001 : Start high-fanout net optimization ...
+OPT-1001 : Update timing in global mode
+PHY-1001 : Start incremental global routing ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 1.17655e+06, over cnt = 191(0%), over = 223, worst = 2
+PHY-1002 : len = 1.17748e+06, over cnt = 126(0%), over = 138, worst = 2
+PHY-1002 : len = 1.17801e+06, over cnt = 73(0%), over = 77, worst = 2
+PHY-1002 : len = 1.17727e+06, over cnt = 42(0%), over = 44, worst = 2
+PHY-1002 : len = 1.17702e+06, over cnt = 29(0%), over = 30, worst = 2
+PHY-1001 : End global iterations;  0.252496s wall, 0.671875s user + 0.062500s system = 0.734375s CPU (290.8%)
+
+PHY-1001 : Congestion index: top1 = 53.75, top5 = 45.63, top10 = 41.88, top15 = 37.50.
+PHY-1001 : End incremental global routing;  0.393962s wall, 0.812500s user + 0.062500s system = 0.875000s CPU (222.1%)
+
+RUN-1002 : start command "start_timer"
+TMR-5001 WARNING: No sdc constraints found while initiating timer.
+TMR-2505 : Start building timing graph for model CortexM0_SoC.
+TMR-2506 : Build timing graph completely. Port num: 4, tpin num: 29984, tnet num: 6086, tinst num: 2857, tnode num: 33668, tedge num: 50238.
+TMR-2508 : Levelizing timing graph completed, there are 53 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+OPT-1001 : End timing update;  0.416648s wall, 0.406250s user + 0.015625s system = 0.421875s CPU (101.3%)
+
+OPT-1001 : 0 high-fanout net processed.
+OPT-1001 : End high-fanout net optimization;  1.304240s wall, 1.703125s user + 0.078125s system = 1.781250s CPU (136.6%)
+
+OPT-1001 : End physical optimization;  1.371281s wall, 1.765625s user + 0.078125s system = 1.843750s CPU (134.5%)
+
+RUN-1003 : finish command "place" in  12.193624s wall, 27.578125s user + 8.234375s system = 35.812500s CPU (293.7%)
+
+RUN-1004 : used memory is 742 MB, reserved memory is 717 MB, peak memory is 1031 MB
+RUN-1002 : start command "report_area -io_info -file EG4S_place.area"
+RUN-1001 : standard
+***Report Model: CortexM0_SoC***
+
+IO Statistics
+#IO                         4
+  #input                    3
+  #output                   0
+  #inout                    1
+
+Utilization Statistics
+#lut                     5315   out of  19600   27.12%
+#reg                     1300   out of  19600    6.63%
+#le                      5329
+  #lut only              4029   out of   5329   75.61%
+  #reg only                14   out of   5329    0.26%
+  #lut&reg               1286   out of   5329   24.13%
+#dsp                        3   out of     29   10.34%
+#bram                      64   out of     64  100.00%
+  #bram9k                  64
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                        4   out of    188    2.13%
+  #ireg                     0
+  #oreg                     0
+  #treg                     0
+#pll                        0   out of      4    0.00%
+
+
+Detailed IO Report
+
+  Name     Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+  RSTn       INPUT         A9        LVCMOS25          N/A          PULLUP      NONE    
+  SWCLK      INPUT         R2        LVCMOS25          N/A          PULLUP      NONE    
+   clk       INPUT         R7        LVCMOS25          N/A          PULLUP      NONE    
+  SWDIO      INOUT         P2        LVCMOS25           8           PULLUP      NONE    
+
+Report Hierarchy Area:
++----------------------------------------------------------------------+
+|Instance |Module       |le    |lut    |ripple |seq    |bram   |dsp    |
++----------------------------------------------------------------------+
+|top      |CortexM0_SoC |5329  |5250   |65     |1300   |64     |3      |
++----------------------------------------------------------------------+
+
+RUN-1002 : start command "route"
+RUN-1001 : Open license file C:/Anlogic/TD5.0.30786/license/Anlogic.lic
+RUN-1001 : Print Route Property
+RUN-1001 : -----------------------------------------------
+RUN-1001 :    Parameters    |  Settings  |  Default Values  
+RUN-1001 : -----------------------------------------------
+RUN-1001 :      effort      |   medium   |      medium      
+RUN-1001 :     fix_hold     |    off     |       off        
+RUN-1001 :       lcnp       |     5      |        5         
+RUN-1001 :       mcnp       |     10     |        10        
+RUN-1001 :    opt_timing    |   medium   |      medium      
+RUN-1001 :   phy_sim_model  |    off     |       off        
+RUN-1001 :     priority     |   timing   |      timing      
+RUN-1001 :     swap_pin     |     on     |        on        
+RUN-1001 : -----------------------------------------------
+PHY-1001 : Route runs in 16 thread(s)
+RUN-1001 : There are total 2859 instances
+RUN-1001 : 1392 mslices, 1392 lslices, 4 pads, 64 brams, 3 dsps
+RUN-1001 : There are total 6088 nets
+RUN-1001 : 2706 nets have 2 pins
+RUN-1001 : 2398 nets have [3 - 5] pins
+RUN-1001 : 565 nets have [6 - 10] pins
+RUN-1001 : 222 nets have [11 - 20] pins
+RUN-1001 : 194 nets have [21 - 99] pins
+RUN-1001 : 3 nets have 100+ pins
+PHY-1001 : Start global routing ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 16 thread ...
+PHY-1002 : len = 1.17655e+06, over cnt = 191(0%), over = 223, worst = 2
+PHY-1002 : len = 1.17748e+06, over cnt = 126(0%), over = 138, worst = 2
+PHY-1002 : len = 1.17731e+06, over cnt = 77(0%), over = 84, worst = 2
+PHY-1002 : len = 1.17715e+06, over cnt = 33(0%), over = 35, worst = 2
+PHY-1002 : len = 1.16573e+06, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.251169s wall, 0.906250s user + 0.031250s system = 0.937500s CPU (373.3%)
+
+PHY-1001 : Congestion index: top1 = 53.75, top5 = 45.00, top10 = 40.63, top15 = 37.50.
+PHY-1001 : End global routing;  0.532210s wall, 1.187500s user + 0.031250s system = 1.218750s CPU (229.0%)
+
+PHY-1001 : Start detail routing ...
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_pad will be routed on clock mesh
+PHY-1001 : clock net u_logic/SWCLKTCK_pad_gclk_net will be merged with clock u_logic/SWCLKTCK_pad
+PHY-1001 : Detail Route ...
+PHY-1001 : ===== Detail Route Phase 1 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 69000, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.054407s wall, 0.046875s user + 0.000000s system = 0.046875s CPU (86.2%)
+
+PHY-1001 : ===== Detail Route Phase 2 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 69000, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.000031s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-1001 : ===== Detail Route Phase 3 =====
+PHY-1001 : Routed 41% nets.
+PHY-1001 : Routed 49% nets.
+PHY-1001 : Routed 58% nets.
+PHY-1001 : Routed 73% nets.
+PHY-1001 : Routed 98% nets.
+PHY-1002 : len = 1.50821e+06, over cnt = 258(0%), over = 259, worst = 2
+PHY-1001 : End Routed; 11.461738s wall, 20.218750s user + 0.390625s system = 20.609375s CPU (179.8%)
+
+PHY-1001 : ===== DR Iter 1 =====
+PHY-1002 : len = 1.49906e+06, over cnt = 78(0%), over = 78, worst = 1
+PHY-1001 : End DR Iter 1; 0.360947s wall, 0.531250s user + 0.000000s system = 0.531250s CPU (147.2%)
+
+PHY-1001 : ===== DR Iter 2 =====
+PHY-1002 : len = 1.49766e+06, over cnt = 17(0%), over = 17, worst = 1
+PHY-1001 : End DR Iter 2; 0.134729s wall, 0.156250s user + 0.000000s system = 0.156250s CPU (116.0%)
+
+PHY-1001 : ===== DR Iter 3 =====
+PHY-1002 : len = 1.49698e+06, over cnt = 0(0%), over = 0, worst = 0
+PHY-1003 : Routed, final wirelength = 1.49698e+06
+PHY-1001 : End DR Iter 3; 0.062135s wall, 0.062500s user + 0.000000s system = 0.062500s CPU (100.6%)
+
+PHY-1001 : 0 feed throughs used by 0 nets
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_pad will be routed on clock mesh
+PHY-1001 : clock net u_logic/SWCLKTCK_pad_gclk_net will be merged with clock u_logic/SWCLKTCK_pad
+PHY-1001 : eco open net = 0
+PHY-1001 : End detail routing;  17.498007s wall, 26.265625s user + 0.609375s system = 26.875000s CPU (153.6%)
+
+PHY-1001 : Routing violations:
+PHY-1001 : End of Routing Violations.
+RUN-1003 : finish command "route" in  18.286399s wall, 27.703125s user + 0.656250s system = 28.359375s CPU (155.1%)
+
+RUN-1004 : used memory is 861 MB, reserved memory is 839 MB, peak memory is 1542 MB
+RUN-1002 : start command "report_area -io_info -file EG4S_phy.area"
+RUN-1001 : standard
+***Report Model: CortexM0_SoC***
+
+IO Statistics
+#IO                         4
+  #input                    3
+  #output                   0
+  #inout                    1
+
+Utilization Statistics
+#lut                     5315   out of  19600   27.12%
+#reg                     1300   out of  19600    6.63%
+#le                      5329
+  #lut only              4029   out of   5329   75.61%
+  #reg only                14   out of   5329    0.26%
+  #lut&reg               1286   out of   5329   24.13%
+#dsp                        3   out of     29   10.34%
+#bram                      64   out of     64  100.00%
+  #bram9k                  64
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                        4   out of    188    2.13%
+  #ireg                     0
+  #oreg                     0
+  #treg                     0
+#pll                        0   out of      4    0.00%
+#gclk                       2   out of     16   12.50%
+
+
+Detailed IO Report
+
+  Name     Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+  RSTn       INPUT         A9        LVCMOS25          N/A          PULLUP      NONE    
+  SWCLK      INPUT         R2        LVCMOS25          N/A          PULLUP      NONE    
+   clk       INPUT         R7        LVCMOS25          N/A          PULLUP      NONE    
+  SWDIO      INOUT         P2        LVCMOS25           8           PULLUP      NONE    
+
+Report Hierarchy Area:
++----------------------------------------------------------------------+
+|Instance |Module       |le    |lut    |ripple |seq    |bram   |dsp    |
++----------------------------------------------------------------------+
+|top      |CortexM0_SoC |5329  |5250   |65     |1300   |64     |3      |
++----------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout     Nets  
+    #1          1       2702  
+    #2          2       1510  
+    #3          3       485   
+    #4          4       403   
+    #5        5-10      588   
+    #6        11-50     356   
+    #7       51-100      35   
+    #8       101-500     1    
+  Average     3.74            
+
+RUN-1002 : start command "export_db EG4S_pr.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1003 : finish command "export_db EG4S_pr.db" in  2.684528s wall, 2.359375s user + 0.343750s system = 2.703125s CPU (100.7%)
+
+RUN-1004 : used memory is 860 MB, reserved memory is 843 MB, peak memory is 1542 MB
+RUN-1002 : start command "bitgen -bit EG4S.bit -version 0X00 -g ucode:001100000000000000000000"
+BIT-1003 : Start to generate bitstream. 
+BIT-1002 : Init instances with 16 threads.
+BIT-1002 : Init instances completely, inst num: 2859
+BIT-1002 : Init pips with 16 threads.
+BIT-1002 : Init pips completely, net num: 6088, pip num: 85980
+BIT-1003 : Multithreading accelaration with 16 threads.
+BIT-1003 : Generate bitstream completely, there are 2705 valid insts, and 225509 bits set as '1'.
+BIT-1004 : PLL setting string = 0000
+BIT-1004 : Generate bits file EG4S.bit.
+RUN-1003 : finish command "bitgen -bit EG4S.bit -version 0X00 -g ucode:001100000000000000000000" in  5.832420s wall, 72.046875s user + 1.843750s system = 73.890625s CPU (1266.9%)
+
+RUN-1004 : used memory is 962 MB, reserved memory is 947 MB, peak memory is 1542 MB

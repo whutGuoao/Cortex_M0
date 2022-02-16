@@ -1,0 +1,13 @@
+set_pin_assignment	{ RSTn }	{ LOCATION = A9; }
+set_pin_assignment	{ SWCLK }	{ LOCATION = R2; }
+set_pin_assignment	{ SWDIO }	{ LOCATION = P2; }
+set_pin_assignment	{ clk }	{ LOCATION = R7; }
+set_pin_assignment	{ LED[0] }	{ LOCATION = B14; }
+set_pin_assignment	{ LED[1] }	{ LOCATION = B15; }
+set_pin_assignment	{ LED[2] }	{ LOCATION = B16; }
+set_pin_assignment	{ LED[3] }	{ LOCATION = C15; }
+set_pin_assignment	{ LED[4] }	{ LOCATION = C16; }
+set_pin_assignment	{ LED[5] }	{ LOCATION = E13; }
+set_pin_assignment	{ LED[6] }	{ LOCATION = E16; }
+set_pin_assignment	{ LED[7] }	{ LOCATION = F16; }
+set_pin_assignment	{ LEDclk }	{ LOCATION = F5; }

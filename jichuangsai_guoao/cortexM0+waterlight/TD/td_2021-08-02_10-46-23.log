@@ -1,0 +1,328 @@
+============================================================
+   Tang Dynasty, V4.6.30127
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = C:/Anlogic/TD4.6.6/bin/td.exe
+   Built at =   15:41:01 Apr 16 2021
+   Run by =     Frank
+   Run Date =   Mon Aug  2 10:46:23 2021
+
+   Run on =     LAPTOP-GINUUGSJ
+============================================================
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicated  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicated  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Block_RAM.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Decoder.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Interconnect.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_SlaveMUX.v
+HDL-1007 : analyze verilog file ../rtl/Block_RAM.v
+HDL-1007 : analyze verilog file ../rtl/CortexM0_SoC.v
+HDL-1007 : analyze verilog file ../rtl/cortexm0ds_logic.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Block_RAM.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Decoder.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Interconnect.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_SlaveMUX.v
+HDL-1007 : analyze verilog file ../rtl/Block_RAM.v
+HDL-1007 : analyze verilog file ../rtl/CortexM0_SoC.v
+HDL-1007 : analyze verilog file ../rtl/cortexm0ds_logic.v
+RUN-1002 : start command "elaborate -top CortexM0_SoC"
+HDL-5007 WARNING: port 'CODENSEQ' remains unconnected for this instance in ../rtl/CortexM0_SoC.v(135)
+HDL-1007 : elaborate module CortexM0_SoC in ../rtl/CortexM0_SoC.v(2)
+HDL-1007 : elaborate module cortexm0ds_logic in ../rtl/cortexm0ds_logic.v(27)
+HDL-1007 : elaborate module AHBlite_Interconnect in ../rtl/AHBlite_Interconnect.v(1)
+HDL-1007 : elaborate module AHBlite_Decoder in ../rtl/AHBlite_Decoder.v(1)
+HDL-1007 : elaborate module AHBlite_SlaveMUX in ../rtl/AHBlite_SlaveMUX.v(1)
+HDL-1007 : elaborate module AHBlite_Block_RAM in ../rtl/AHBlite_Block_RAM.v(1)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 4 for port 'HPROT' in ../rtl/CortexM0_SoC.v(290)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 2 for port 'HRESP' in ../rtl/CortexM0_SoC.v(298)
+HDL-1007 : elaborate module Block_RAM in ../rtl/Block_RAM.v(1)
+HDL-5007 WARNING: net 'HREADYOUT_P1' does not have a driver in ../rtl/CortexM0_SoC.v(165)
+HDL-5007 WARNING: net 'HRDATA_P1[31]' does not have a driver in ../rtl/CortexM0_SoC.v(166)
+HDL-5007 WARNING: net 'HRESP_P1' does not have a driver in ../rtl/CortexM0_SoC.v(167)
+HDL-5007 WARNING: net 'HREADYOUT_P2' does not have a driver in ../rtl/CortexM0_SoC.v(179)
+HDL-5007 WARNING: net 'HRDATA_P2[31]' does not have a driver in ../rtl/CortexM0_SoC.v(180)
+HDL-5007 WARNING: net 'HRESP_P2' does not have a driver in ../rtl/CortexM0_SoC.v(181)
+HDL-5007 WARNING: net 'HREADYOUT_P3' does not have a driver in ../rtl/CortexM0_SoC.v(193)
+HDL-5007 WARNING: net 'HRDATA_P3[31]' does not have a driver in ../rtl/CortexM0_SoC.v(194)
+HDL-5007 WARNING: net 'HRESP_P3' does not have a driver in ../rtl/CortexM0_SoC.v(195)
+HDL-5007 WARNING: net 'HPORT_P0' does not have a driver in ../rtl/CortexM0_SoC.v(290)
+HDL-1200 : Current top model is CortexM0_SoC
+HDL-1100 : Inferred 1 RAMs.
+RUN-1003 : finish command "elaborate -top CortexM0_SoC" in  229.106603s wall, 231.031250s user + 3.359375s system = 234.390625s CPU (102.3%)
+
+RUN-1004 : used memory is 341 MB, reserved memory is 297 MB, peak memory is 1055 MB
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Block_RAM.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Decoder.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_Interconnect.v
+HDL-1007 : analyze verilog file ../rtl/AHBlite_SlaveMUX.v
+HDL-1007 : analyze verilog file ../rtl/Block_RAM.v
+HDL-1007 : analyze verilog file ../rtl/CortexM0_SoC.v
+HDL-1007 : analyze verilog file ../rtl/cortexm0ds_logic.v
+RUN-1002 : start command "elaborate -top CortexM0_SoC"
+HDL-5007 WARNING: port 'CODENSEQ' remains unconnected for this instance in ../rtl/CortexM0_SoC.v(135)
+HDL-1007 : elaborate module CortexM0_SoC in ../rtl/CortexM0_SoC.v(2)
+HDL-1007 : elaborate module cortexm0ds_logic in ../rtl/cortexm0ds_logic.v(27)
+HDL-1007 : elaborate module AHBlite_Interconnect in ../rtl/AHBlite_Interconnect.v(1)
+HDL-1007 : elaborate module AHBlite_Decoder in ../rtl/AHBlite_Decoder.v(1)
+HDL-1007 : elaborate module AHBlite_SlaveMUX in ../rtl/AHBlite_SlaveMUX.v(1)
+HDL-1007 : elaborate module AHBlite_Block_RAM in ../rtl/AHBlite_Block_RAM.v(1)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 4 for port 'HPROT' in ../rtl/CortexM0_SoC.v(290)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 2 for port 'HRESP' in ../rtl/CortexM0_SoC.v(298)
+HDL-1007 : elaborate module Block_RAM in ../rtl/Block_RAM.v(1)
+HDL-5007 WARNING: net 'HREADYOUT_P1' does not have a driver in ../rtl/CortexM0_SoC.v(165)
+HDL-5007 WARNING: net 'HRDATA_P1[31]' does not have a driver in ../rtl/CortexM0_SoC.v(166)
+HDL-5007 WARNING: net 'HRESP_P1' does not have a driver in ../rtl/CortexM0_SoC.v(167)
+HDL-5007 WARNING: net 'HREADYOUT_P2' does not have a driver in ../rtl/CortexM0_SoC.v(179)
+HDL-5007 WARNING: net 'HRDATA_P2[31]' does not have a driver in ../rtl/CortexM0_SoC.v(180)
+HDL-5007 WARNING: net 'HRESP_P2' does not have a driver in ../rtl/CortexM0_SoC.v(181)
+HDL-5007 WARNING: net 'HREADYOUT_P3' does not have a driver in ../rtl/CortexM0_SoC.v(193)
+HDL-5007 WARNING: net 'HRDATA_P3[31]' does not have a driver in ../rtl/CortexM0_SoC.v(194)
+HDL-5007 WARNING: net 'HRESP_P3' does not have a driver in ../rtl/CortexM0_SoC.v(195)
+HDL-5007 WARNING: net 'HPORT_P0' does not have a driver in ../rtl/CortexM0_SoC.v(290)
+HDL-1200 : Current top model is CortexM0_SoC
+HDL-1100 : Inferred 1 RAMs.
+RUN-1003 : finish command "elaborate -top CortexM0_SoC" in  24.957146s wall, 24.656250s user + 1.109375s system = 25.765625s CPU (103.2%)
+
+RUN-1004 : used memory is 373 MB, reserved memory is 324 MB, peak memory is 1073 MB
+RUN-1002 : start command "read_adc M0.adc"
+RUN-1002 : start command "set_pin_assignment  RSTn   LOCATION = A9; "
+RUN-1002 : start command "set_pin_assignment  SWCLK   LOCATION = R2; "
+RUN-1002 : start command "set_pin_assignment  SWDIO   LOCATION = P2; "
+RUN-1002 : start command "set_pin_assignment  clk   LOCATION = R7; "
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Anlogic/TD4.6.6/license/Anlogic.lic
+SYN-1012 : SanityCheck: Model "CortexM0_SoC"
+SYN-1012 : SanityCheck: Model "AHBlite_Interconnect"
+SYN-1012 : SanityCheck: Model "AHBlite_Decoder"
+SYN-1012 : SanityCheck: Model "AHBlite_SlaveMUX"
+SYN-1012 : SanityCheck: Model "AHBlite_Block_RAM"
+SYN-1012 : SanityCheck: Model "Block_RAM"
+SYN-1012 : SanityCheck: Model "cortexm0ds_logic"
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HPORT_P0" in ../rtl/CortexM0_SoC.v(290)
+SYN-5014 WARNING: the net's pin: pin "HPROT[0]" in ../rtl/CortexM0_SoC.v(284)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[0]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[0]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[10]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[10]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[11]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[11]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[12]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[12]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[13]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[13]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[14]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[14]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[15]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[15]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[16]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[16]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[17]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[17]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[18]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[18]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[19]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[19]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[1]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[1]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[20]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[20]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[21]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[21]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[22]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[22]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[23]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[23]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[24]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[24]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[25]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[25]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[26]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[26]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[27]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[27]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[28]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[28]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[29]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[29]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[2]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[2]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[30]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[30]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[31]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[31]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[3]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[3]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[4]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[4]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[5]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[5]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[6]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[6]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[7]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[7]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[8]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[8]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P1[9]" in ../rtl/CortexM0_SoC.v(166)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P1[9]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[0]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[0]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[10]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[10]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[11]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[11]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[12]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[12]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[13]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[13]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[14]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[14]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[15]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[15]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[16]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[16]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[17]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[17]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[18]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[18]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[19]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[19]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[1]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[1]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[20]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[20]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[21]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[21]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[22]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[22]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[23]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[23]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[24]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[24]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[25]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[25]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[26]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[26]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[27]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[27]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[28]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[28]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[29]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[29]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[2]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[2]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[30]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[30]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[31]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[31]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[3]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[3]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[4]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[4]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[5]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[5]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[6]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[6]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[7]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[7]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[8]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[8]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P2[9]" in ../rtl/CortexM0_SoC.v(180)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P2[9]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[0]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[0]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[10]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[10]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[11]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[11]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[12]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[12]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[13]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[13]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[14]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[14]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[15]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[15]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[16]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[16]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[17]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[17]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[18]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[18]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[19]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[19]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[1]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[1]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[20]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[20]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[21]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[21]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[22]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[22]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[23]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[23]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[24]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[24]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[25]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[25]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[26]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[26]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[27]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[27]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[28]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[28]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[29]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[29]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[2]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[2]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[30]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[30]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[31]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[31]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[3]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[3]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[4]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[4]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[5]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[5]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[6]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[6]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[7]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[7]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[8]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[8]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRDATA_P3[9]" in ../rtl/CortexM0_SoC.v(194)
+SYN-5014 WARNING: the net's pin: pin "HRDATA_P3[9]" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HREADYOUT_P1" in ../rtl/CortexM0_SoC.v(165)
+SYN-5014 WARNING: the net's pin: pin "HREADYOUT_P1" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HREADYOUT_P2" in ../rtl/CortexM0_SoC.v(179)
+SYN-5014 WARNING: the net's pin: pin "HREADYOUT_P2" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HREADYOUT_P3" in ../rtl/CortexM0_SoC.v(193)
+SYN-5014 WARNING: the net's pin: pin "HREADYOUT_P3" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRESP_P1" in ../rtl/CortexM0_SoC.v(167)
+SYN-5014 WARNING: the net's pin: pin "HRESP_P1" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRESP_P2" in ../rtl/CortexM0_SoC.v(181)
+SYN-5014 WARNING: the net's pin: pin "HRESP_P2" in ../rtl/CortexM0_SoC.v(197)
+SYN-5013 WARNING: Undriven net: model "CortexM0_SoC" / net "HRESP_P3" in ../rtl/CortexM0_SoC.v(195)
+SYN-5014 WARNING: the net's pin: pin "HRESP_P3" in ../rtl/CortexM0_SoC.v(197)
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1024 : Implement RAM ram_mem(ram_w16x8_w16x8_w16x8_w16x8_r14x32).
+SYN-1016 : Merged 458752 instances.
+SYN-1016 : Merged 1 instances.
+SYN-1011 : Flatten model CortexM0_SoC
+SYN-1011 : Flatten model AHBlite_Interconnect
+SYN-1011 : Flatten model AHBlite_Decoder
+SYN-1011 : Flatten model AHBlite_SlaveMUX
+SYN-1016 : Merged 1 instances.
+SYN-1011 : Flatten model AHBlite_Block_RAM
+SYN-1011 : Flatten model Block_RAM
+SYN-1011 : Flatten model demux_00016
+SYN-1016 : Merged 65519 instances.
+SYN-1011 : Flatten model MEMMUX_1_9
